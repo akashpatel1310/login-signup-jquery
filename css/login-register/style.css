@@ -1,0 +1,98 @@
+.center-align{
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+}
+.card-login{
+    margin-top: 75px;
+    background-color: white;
+    box-shadow: 4px 6px 8px black;
+    border-radius: 5px;
+}
+
+.login-btn{
+    background-color: lightblue;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 50px;
+    border : 1px solid black;
+}
+
+.login-btn.active{
+    background-color: red;
+}
+.remove-padding{
+    flex: 0 0 50%;
+}
+.login-form{
+    margin: 50px;
+}
+
+.login-input{
+    text-align: left;
+    margin-bottom: 30px;
+    height: 50px;
+    width: 100%;
+    border:2px grey solid;
+    border-radius: 5px;
+}
+.login-submit{
+    margin-top: 25px;
+    background: linear-gradient(90deg,#000851 0%,  #1CB5E0 100%);
+    border: none;
+    color: white;
+    height: 50px;
+    width: 25%;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.login-label{
+    color: black;
+    font-weight: bold;
+    float: left;
+}
+.login-forgot-pass{
+    float: right;
+    font-style: italic;
+}
+.register-form{
+    margin: 50px;
+}
+.register-input{
+    height: 50px;
+    width: 100%;
+    border:2px grey solid;
+    border-radius: 5px;
+    float: left;
+    margin-bottom: 25px;
+}
+.register-label{
+    font-weight: bold;
+    float: left;
+}
+.register-submit{
+    margin-top: 25px;
+    background: linear-gradient(90deg,#000851 0%,  #1CB5E0 100%);
+    border: none;
+    color: white;
+    height: 50px;
+    width: 25%;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.card-forgot-password{
+    float:center;
+    margin-top: 75px;
+    background-color: white;
+    box-shadow: 4px 6px 8px black;
+    border-radius: 5px;
+}
+
+.padding-50{
+    padding-top: 40px;
+}
+

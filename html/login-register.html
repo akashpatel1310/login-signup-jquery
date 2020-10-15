@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+<title>Login/Register</title>
+<link rel="stylesheet" href="../css/login-register/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js0"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script src="../js/toggle.js"></script>
+<script src="../js/vadilation.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-3 center-align">
+            
+        </div>
+        <div class="col-6 center-align">
+            <div class="card-login">
+                <!--Selection Buttons -->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="remove-padding">
+                            <button id="login-btn"  class="login-btn">Login</button>
+                        </div>
+                        <div class="remove-padding">
+                            <button id="register-btn" class="login-btn">Register</button>
+                        </div>
+                    </div>
+                </div>
+                <!--Login form-->
+                <form id="login-form" class="login-form">
+                    <label class="login-label">Email</label>
+                    <input type="email" name="Lemail" class="login-input" placeholder="Enter Email">
+                    <br>
+                    <span>
+                        <label class="login-label">Password</label>
+                        <a href="forgot-pass.html" class="login-forgot-pass">Forgot Password?</a>
+                    </span>
+                    <input type="password" name="Lpass" class="login-input" placeholder="Enter Password">
+                    <br>
+                    <input type="submit" class="login-submit" value="Continue">
+                </form>
+                <!--Registration form-->
+                <form class="register-form">
+                    <div class="row">
+                        <div class="col-6">
+                        <label class="register-label">First Name</label>
+                        <input type="email" class="register-input" placeholder="Enter First Name">
+                        </div>
+                        <div class="col-6">
+                        <label class="register-label">Last Name</label>
+                        <input type="email" class="register-input" placeholder="Enter Last Name">
+                        </div>
+                        <div class="col-6">
+                        <label class="register-label">Email</label>
+                        <input type="email" class="register-input" placeholder="Enter Email">
+                        </div>
+                        <div class="col-6">
+                        <label class="register-label">Contact No.</label>
+                        <input type="email" class="register-input" placeholder="Enter Contact Number">
+                        </div>
+                        <div class="col-6">
+                        <label class="register-label">Password</label>
+                        <input type="password" class="register-input" placeholder="Enter Password">
+                        </div>
+                        <div class="col-6">
+                        <label class="register-label">Confirm Password</label>
+                        <input type="password" class="register-input" placeholder="Confirm Password">
+                        </div>
+                        <br>
+                        <div class="col-12">
+                        <input type="submit" class="register-submit" value="Register">
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        <div class="col-3 center-align">
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+
+$(function(){
+    var $formreg = $("#login-form");
+    if($formreg.length){
+        $formreg.validate({
+            rules:{
+                Lemail:{
+                    required:true
+                }
+            },
+            messages:{
+                Lemail:{
+                    required: "username mandatory"
+                }
+            }
+        })
+    }else{
+        alert("hello");
+    }
+})
+
+
+    $("#login-form").validate({
+        rules:{
+            Lemail:{
+                required: true,
+                email:true
+            },
+            Lpass:{
+                required: true,
+                minlength:8
+            }
+        },
+        messages:{
+            Lemail:{
+                required: "Please enter email",
+                email: "Email format should be exampledomain.com"
+            },
+            Lpass:{
+                required: "Please enter password",
+                minlength: "Password should be atleast 8 characters long"
+            },
+        }
+    });
